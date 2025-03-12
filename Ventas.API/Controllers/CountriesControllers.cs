@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Ventas.API.Data;
@@ -7,8 +8,8 @@ using Ventas.Share.Entities;
 
 namespace Ventas.API.Controllers
 {
-    [ApiController]
-    [Route("api/controller")]
+   [ApiController]
+    [Route("api/countries")]
     public class CountriesControllers: ControllerBase
     {
         private readonly DataContext _context;
